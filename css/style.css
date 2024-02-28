@@ -37,6 +37,11 @@ dd {
     border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
 }
 
+.logo {
+    height: 5rem;
+    /* object-fit: contain; */
+}
+
 .whatsapp {
     width: 52px;
     height: 52px;
@@ -58,6 +63,6 @@ dd {
 }
 
 .img-portada {
-    background-image: url("/img/test.jpg");
+    background-image: url("/img/background.png");
     background-size: cover;
 }
