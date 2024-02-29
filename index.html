@@ -19,9 +19,9 @@
             <nav class="navbar navbar-one" aria-label="Dark offcanvas navbar">
                 <div class="container">
                     <!-- Logo imagen -->
-                        <a class="navbar-brand" href="#">
-                            <img src="./img/Logo Grupo Serscay.png" alt="" class="logo">
-                        </a>
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/Logo Grupo Serscay.png" alt="" class="logo">
+                    </a>
                     <!-- Icono de Whatsapp -->
                     <div class="col-md-3 text-end">
                         <div class="whatsapp">
@@ -37,72 +37,80 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
+                    <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasNavbarDark"
                         aria-labelledby="offcanvasNavbarDarkLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavbarDarkLabel">MENU</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link" href="#">SOBRE NOSOTROS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#">FUMISTERIA SERSCAY</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PROYECSER</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">NUESTROS TRABAJOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACTO</a>
                                 </li>
                             </ul>
-                            <form class="d-flex mt-3" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
         <main>
+            <!-- Section portada -->
             <section>
-                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center portada">
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 portada">
                     <div class="col-md-6 p-lg-5 mx-auto my-5">
-                        <h1 class="display-3 fw-bold">Designed for engineers</h1>
-                        <h3 class="fw-normal text-muted mb-3">Build anything you want with Aperture</h3>
-                        <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                            <a class="icon-link" href="#">
-                                Learn more
-                                <svg class="bi">
-                                    <use xlink:href="#chevron-right" />
-                                </svg>
-                            </a>
-                            <a class="icon-link" href="#">
-                                Buy
-                                <svg class="bi">
-                                    <use xlink:href="#chevron-right" />
-                                </svg>
-                            </a>
+                        <h1 class="display-4 fw-bold">Serscay servicios industriales</h1>
+                        <h3 class="fw-normal text-muted mb-3">Ofrecemos un servicio de excelencia creando soluciones a
+                            la medida del cliente</h3>
+                        <div class="d-flex gap-3 lead fw-normal">
+                            <button type="button" class="btn btn-info" href="#">Sobre nosotros</button>
                         </div>
                     </div>
                     <div class="product-device shadow-sm d-none d-md-block"></div>
                     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
                 </div>
             </section>
-        </main>
     </div>
+    <!-- Section mision -->
+    <section>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
+            <div class="col-md-9 p-lg-5 mx-auto my-5">
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
+                                class="text-body-secondary">It' ll blow your mind.</span></h2>
+                        <p class="lead">Some great placeholder content for the first featurette here. Imagine
+                            some
+                            exciting prose here.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                            width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
+                            aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
+                                fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
