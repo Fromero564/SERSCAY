@@ -39,7 +39,6 @@ dd {
 
 .logo {
     height: 5rem;
-    /* object-fit: contain; */
 }
 
 .whatsapp {
@@ -60,6 +59,7 @@ dd {
 
 .portada {
     height: 50rem;
+    padding-bottom: 40px;
 }
 
 .img-portada {
