@@ -71,6 +71,106 @@ dd {
     background-size: cover;
 }
 
+
+/*Section Timeline*/
+
+.div-timeline {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; 
+}
+
+.div-arrows {
+    display: flex;
+    padding: 10px;
+}
+
+.div-year {
+    text-align: center;
+    font-weight: bold;
+}
+
+.div-text {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px; 
+}
+
+.red-arrow,
+.black-arrow,
+.grey-arrow,
+.lightgrey-arrow {
+    width: 100px; 
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.red-arrow .div-year,
+.black-arrow .div-year,
+.grey-arrow .div-year,
+.lightgrey-arrow .div-year {
+    margin-bottom: 5px; 
+}
+
+.red-arrow {
+    background-color: red;
+}
+
+.black-arrow {
+    background-color: black;
+}
+
+.grey-arrow {
+    background-color: rgb(102, 102, 102);
+}
+
+.lightgrey-arrow {
+    background-color: grey;
+}
+
+.red-triangle-arrow,
+.black-triangle-arrow,
+.grey-triangle-arrow,
+.lightgrey-triangle-arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent; 
+    border-right: 20px solid transparent; 
+    transform: rotate(270deg);
+    border-top: 25px solid; 
+}
+
+.red-triangle-arrow {
+    border-top-color: red;
+}
+
+.black-triangle-arrow {
+    border-top-color: black;
+}
+
+.grey-triangle-arrow {
+    border-top-color: rgb(102, 102, 102);
+}
+
+.lightgrey-triangle-arrow {
+    border-top-color: grey;
+}
+
 .mision-title {
     font-size: 50px;
     font-family: "Oswald", sans-serif;
@@ -89,8 +189,11 @@ dd {
     flex-direction: column;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .menu-list{
     font-size: 30px;
     padding: 50px;
 }
+=======
+>>>>>>> 5e68c1afb4ecb841a04870367c30d3c3278dc714
