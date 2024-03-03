@@ -89,3 +89,8 @@ dd {
     flex-direction: column;
     justify-content: center;
 }
+
+.menu-list{
+    font-size: 30px;
+    padding: 50px;
+}
