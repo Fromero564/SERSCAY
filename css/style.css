@@ -41,9 +41,6 @@ dd {
     height: 5rem;
 }
 
-.logo-footer {
-    height: 10rem;
-}
 
 .whatsapp {
     width: 52px;
@@ -67,7 +64,7 @@ dd {
 }
 
 .img-portada {
-    background-image: url("/img/background.png");
+    background-image: url("../img/background.png");
     background-size: cover;
 }
 
@@ -193,4 +190,36 @@ dd {
 .menu-list{
     font-size: 30px;
     padding: 50px;
+}
+.text-center {
+    margin: 35px;
+    font-weight: bold;
+}
+
+
+
+/*button sobreNosotros*/
+
+.btn-info{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-info:hover{
+    background-color: gray;
+    color: white;
+}
+
+/*footer*/
+
+.logo-footer {
+    height: 10rem;
+}
+
+.container-footer {
+    background-color: rgb(154, 149, 149);
+    color: #FFF;
+  
 }
