@@ -68,6 +68,32 @@ dd {
     background-size: cover;
 }
 
+/*button sobreNosotros*/
+
+.btn-info{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-info:hover{
+    background-color: gray;
+    color: white;
+}
+
+/*footer*/
+
+.logo-footer {
+    height: 10rem;
+}
+
+.container-footer {
+    background-color: rgb(154, 149, 149);
+    color: #FFF;
+  
+}
+
 
 /*Section Timeline*/
 
@@ -195,30 +221,19 @@ dd {
     font-weight: bold;
 }
 
+/*Fumisteria SERSCAY page*/
 
-
-/*button sobreNosotros*/
-
-.btn-info{
-    background-color: red;
-    border: none;
-    color: white;
-    font-weight: bold;
+.fumisteria-title {
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
 }
 
-.btn-info:hover{
-    background-color: gray;
-    color: white;
+.fumisteria-text {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 350;
+    line-height: 1.4;
 }
 
-/*footer*/
 
-.logo-footer {
-    height: 10rem;
-}
 
-.container-footer {
-    background-color: rgb(154, 149, 149);
-    color: #FFF;
-  
-}
