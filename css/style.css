@@ -212,6 +212,10 @@ dd {
     justify-content: center;
 }
 
+.mision{
+    background-color: #f6f6f6;
+}
+
 .menu-list {
     font-size: 30px;
     padding: 50px;
