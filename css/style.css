@@ -135,7 +135,7 @@ dd {
 .grey-arrow,
 .lightgrey-arrow {
     width: 100px;
-    height: 100px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,8 +222,9 @@ dd {
 }
 
 .text-center {
-    margin: 35px;
-    font-weight: bold;
+    margin: 50px;
+    font-weight: bold!important;
+    color: red;
 }
 
 /*Fumisteria SERSCAY page*/
@@ -244,4 +245,53 @@ dd {
     display: flex;
     align-items: center;
     height: 50rem;
+  }
+
+  /*Contact page*/
+
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  
+  .contact-data {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    margin: 15px;
+    border-radius: 1rem;
+  }
+  
+  .icons {
+    
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  
+  .icons i {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  
+  .icons a{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    color:#FFF;
+    margin-left: 50px;
+    text-decoration: none;
   }
