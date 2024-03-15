@@ -247,6 +247,29 @@ dd {
     height: 50rem;
   }
 
+  .img-portadafumisteria {
+    height: 50vh;
+    background-image: url("../img/backgroundFumisteria.jpeg");
+    background-size: cover;
+}
+.title-border{
+    color: black;
+    text-shadow:
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+/*Proyecser Page*/
+.img-portadaproyecser {
+    height: 50vh;
+    background-image: url("../img/backgroundProyecser.jpeg");
+    background-size: cover;
+    background-position: center center; 
+}
+
+
   /*Contact page*/
 
   .contact-section {
