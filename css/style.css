@@ -35,11 +35,13 @@ dd {
         background-position: center;
         height: 50rem;
     }
+   .timeline-section{
+    display:none;
+   }
 
-    /* .whatsapp {
-        bottom: 100rem;
-        right: 10px;
-    } */
+   .whatsapp{
+    margin-right: 0rem!important;
+   }
 
     .portada-texto {
         text-align: center;
