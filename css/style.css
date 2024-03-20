@@ -90,32 +90,22 @@ dd {
         background-position: center;
         height: 50rem;
     }
-    /* .whatsapp {
-        bottom: 100rem;
-        right: 10px;
-    } */
-    .mision-title {
-        font-size: 50px;
-        font-family: "Oswald", sans-serif;
-        font-weight: 400;
-        margin: 0px;
+   .timeline-section{
+    display:none;
+   }
+
+   .whatsapp{
+    margin-right: 0rem!important;
+   }
+
+    .portada-texto {
+        text-align: center;
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .box-one {
-        text-align: justify;
-    }
-
-    .img-mision {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-
-    }
-}
-
-.imgbox-mision {
-    align-items: center;
 }
 
 .navbar-one {
