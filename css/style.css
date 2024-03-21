@@ -32,7 +32,7 @@ dd {
         height: 387px;
     } */
 
-    div.div-timeline{
+    div.div-timeline {
         display: none;
     }
 
@@ -75,10 +75,6 @@ dd {
         margin: 0px;
     }
 
-    .imgbox-mision {
-        display: flex;
-        align-items: center;
-    }
 }
 
 @media (max-width:481px) {
@@ -90,13 +86,14 @@ dd {
         background-position: center;
         height: 50rem;
     }
-   .timeline-section{
-    display:none;
-   }
 
-   .whatsapp{
-    margin-right: 0rem!important;
-   }
+    .timeline-section {
+        display: none;
+    }
+
+    .whatsapp {
+        margin-right: 0rem !important;
+    }
 
     .portada-texto {
         text-align: center;
@@ -166,6 +163,7 @@ dd {
 
 .logo-footer {
     height: 10rem;
+    display: flex;
 }
 
 .container-footer {
@@ -293,7 +291,6 @@ dd {
 
 .mision {
     background-color: #f6f6f6;
-    margin-right: 1px;
 }
 
 .img-mision {
