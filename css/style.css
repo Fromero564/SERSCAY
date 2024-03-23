@@ -281,20 +281,25 @@ dd {
     font-family: "Oswald", sans-serif;
     font-weight: 350;
     line-height: 1.4;
+    text-align: center;
 }
 
 .box-one {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .mision {
     background-color: #f6f6f6;
 }
 
+.div-mision{
+    display: flex;
+    align-items: center;
+}
+
 .img-mision {
-    width: 607px;
+    width: 400px;
     height: 387px;
 }
 
