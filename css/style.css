@@ -106,6 +106,12 @@ dd {
         flex-direction: column;
     }
 
+    .footer-center {
+        display: grid;
+        place-content: center;
+        text-align: center;
+    }
+
 }
 
 .navbar-one {
@@ -174,6 +180,7 @@ dd {
     color: #FFF;
 
 }
+
 
 /*Section Timeline*/
 
