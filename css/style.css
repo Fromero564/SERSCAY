@@ -75,6 +75,9 @@ dd {
         margin: 0px;
     }
 
+    .timeline {
+        max-width: 100%;
+    }
 }
 
 @media (max-width:481px) {
@@ -293,7 +296,7 @@ dd {
     background-color: #f6f6f6;
 }
 
-.div-mision{
+.div-mision {
     display: flex;
     align-items: center;
 }
@@ -405,4 +408,31 @@ dd {
     color: #FFF;
     margin-left: 50px;
     text-decoration: none;
+}
+
+/* timeline 2 */
+
+.timeline {
+    border-left: 1px solid hsl(0, 89%, 25%);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: hsl(0, 91%, 47%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
 }
