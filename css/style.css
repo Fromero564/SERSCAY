@@ -152,6 +152,7 @@ dd {
 .img-portada {
     background-image: url("../img/background.png");
     background-size: cover;
+    height: 1000px;
 }
 
 /*button sobreNosotros*/
@@ -361,10 +362,8 @@ dd {
 
 /*Proyecser Page*/
 .img-portadaproyecser {
-    height: 50vh;
     background-image: url("../img/backgroundProyecser.jpeg");
     background-size: cover;
-    background-position: center center;
 
 }
 
