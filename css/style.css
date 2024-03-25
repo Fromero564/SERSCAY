@@ -346,7 +346,6 @@ dd {
 }
 
 .img-portadafumisteria {
-    height: 50vh;
     background-image: url("../img/backgroundFumisteria.jpeg");
     background-size: cover;
 }
@@ -364,7 +363,6 @@ dd {
 .img-portadaproyecser {
     background-image: url("../img/backgroundProyecser.jpeg");
     background-size: cover;
-
 }
 
 
