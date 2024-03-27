@@ -178,16 +178,27 @@ dd {
 
 .logo-footer {
     height: 10rem;
-    display: flex;
 }
 
 .container-footer {
     overflow: hidden;
     background-color: rgb(154, 149, 149);
     color: #FFF;
-
 }
 
+.container-footer .col img {
+    object-fit: contain;
+    /* Scales image proportionally to fit within container */
+    width: 100%;
+    /* Ensures image fills the width of the container */
+    height: auto;
+    /* Allows image height to adjust proportionally */
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*Section Timeline*/
 
