@@ -112,6 +112,13 @@ dd {
         text-align: center;
     }
 
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
 .navbar-one {
@@ -196,8 +203,8 @@ dd {
 }
 
 footer {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Section Timeline*/
