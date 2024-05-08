@@ -114,8 +114,14 @@ dd {
     }
 }
 
+/*Home and Navbar*/
+
+
 .navbar-one {
     height: 120px;
+}
+.bold{
+    font-weight: bold;
 }
 
 .offcanvas.offcanvas-end {
@@ -131,6 +137,25 @@ dd {
 
 .logo {
     height: 10rem;
+}
+
+.icons-div{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo-redirect{
+    height: 10rem;
+}
+
+.logo-redirect:hover{
+    scale: 1.2;
+    border-top: 3px solid red;
+    border-left: 3px solid red;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); 
 }
 
 .whatsapp {
@@ -173,129 +198,6 @@ dd {
     color: white;
 }
 
-/*footer*/
-
-.logo-footer {
-    height: 10rem;
-}
-
-.container-footer {
-    overflow: hidden;
-    background-color: rgb(154, 149, 149);
-    color: #FFF;
-}
-
-.container-footer .col img {
-    object-fit: contain;
-    /* Scales image proportionally to fit within container */
-    width: 100%;
-    /* Ensures image fills the width of the container */
-    height: auto;
-    /* Allows image height to adjust proportionally */
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-}
-
-/*Section Timeline*/
-
-.div-timeline {
-    width: 100vw;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.div-arrows {
-    display: flex;
-    padding: 10px;
-}
-
-.div-year {
-    text-align: center;
-    font-weight: bold;
-}
-
-.div-text {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.arrow-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 5px;
-}
-
-.red-arrow,
-.black-arrow,
-.grey-arrow,
-.lightgrey-arrow {
-    width: 100px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #FFF;
-}
-
-.red-arrow .div-year,
-.black-arrow .div-year,
-.grey-arrow .div-year,
-.lightgrey-arrow .div-year {
-    margin-bottom: 5px;
-}
-
-.red-arrow {
-    background-color: red;
-}
-
-.black-arrow {
-    background-color: black;
-}
-
-.grey-arrow {
-    background-color: rgb(102, 102, 102);
-}
-
-.lightgrey-arrow {
-    background-color: grey;
-}
-
-.red-triangle-arrow,
-.black-triangle-arrow,
-.grey-triangle-arrow,
-.lightgrey-triangle-arrow {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    transform: rotate(270deg);
-    border-top: 25px solid;
-}
-
-.red-triangle-arrow {
-    border-top-color: red;
-}
-
-.black-triangle-arrow {
-    border-top-color: black;
-}
-
-.grey-triangle-arrow {
-    border-top-color: rgb(102, 102, 102);
-}
-
-.lightgrey-triangle-arrow {
-    border-top-color: grey;
-}
 
 .mision-title {
     font-size: 50px;
@@ -309,6 +211,15 @@ footer {
     font-weight: 350;
     line-height: 1.4;
     text-align: center;
+}
+
+.info-text {
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    line-height: 1.4;
+    text-align: center;
+    justify-content: center;
 }
 
 .box-one {
@@ -455,4 +366,31 @@ footer {
     height: 11px;
     width: 11px;
     content: "";
+}
+
+
+/*footer*/
+
+.logo-footer {
+    height: 10rem;
+}
+
+.container-footer {
+    overflow: hidden;
+    background-color: rgb(154, 149, 149);
+    color: #FFF;
+}
+
+.container-footer .col img {
+    object-fit: contain;
+    /* Scales image proportionally to fit within container */
+    width: 100%;
+    /* Ensures image fills the width of the container */
+    height: auto;
+    /* Allows image height to adjust proportionally */
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
