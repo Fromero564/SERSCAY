@@ -120,7 +120,8 @@ dd {
 .navbar-one {
     height: 120px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
 
@@ -139,23 +140,23 @@ dd {
     height: 10rem;
 }
 
-.icons-div{
-   display:flex;
-   align-items: center;
-   justify-content: center;
+.icons-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-redirect{
+.logo-redirect {
     height: 10rem;
 }
 
-.logo-redirect:hover{
+.logo-redirect:hover {
     scale: 1.2;
     border-top: 3px solid red;
     border-left: 3px solid red;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
 }
 
 .whatsapp {
@@ -182,6 +183,12 @@ dd {
     background-image: url("../img/background.png");
     background-size: cover;
     height: 1000px;
+}
+
+.mobile-timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*button sobreNosotros*/
@@ -280,43 +287,45 @@ dd {
         1px 1px 0 #fff;
 }
 
-.fondo-seccion-proyectos{
+.fondo-seccion-proyectos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:5%;
-  
-  }
-  
-  .proyecto-carousel {
-    
-    margin: 0 auto; 
-    
-  }
-  .proyecto-carousel img {
-    height: 560px; 
-    
-     
-  }
-  
-  .seccion-proyectos{
+    margin: 5%;
+
+}
+
+.proyecto-carousel {
+
+    margin: 0 auto;
+
+}
+
+.proyecto-carousel img {
+    height: 560px;
+
+
+}
+
+.seccion-proyectos {
     width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .texto-proyectos{
-   width: 50VW;
-   color:#000;
-   text-align: center;
-  }
-  .info-expandir-proyectos{
+}
+
+.texto-proyectos {
+    width: 50VW;
+    color: #000;
+    text-align: center;
+}
+
+.info-expandir-proyectos {
     text-decoration: none;
-  }
-  
-  /* Estilos para el carrusel ampliado */
-  .proyecto-expanded {
+}
+
+/* Estilos para el carrusel ampliado */
+.proyecto-expanded {
     position: fixed;
     top: 0;
     left: 0;
@@ -327,14 +336,14 @@ dd {
     justify-content: center;
     align-items: center;
     z-index: 9999;
-  }
-  
-  .proyecto-expanded .carousel-inner {
+}
+
+.proyecto-expanded .carousel-inner {
     max-width: 50%;
     max-height: 90%;
-  }
-  
-  .close-button {
+}
+
+.close-button {
     position: absolute;
     background-color: none;
     top: 0;
@@ -343,7 +352,7 @@ dd {
     font-size: 24px;
     z-index: 1000;
     display: none;
-  }
+}
 
 /*Proyecser Page*/
 .img-portadaproyecser {
