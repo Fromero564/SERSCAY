@@ -116,9 +116,17 @@ dd {
 
 /*Home and Navbar*/
 
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.81); /* gris semitransparente */
+}
+
 
 .navbar-one {
-    height: 120px;
+    height: 200px;
 }
 
 .bold {
@@ -280,11 +288,8 @@ dd {
 
 .title-border {
     color: black;
-    text-shadow:
-        -1px -1px 0 #fff,
-        1px -1px 0 #fff,
-        -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+    /* font-size: 60px; */
+    font-size: 4rem;
 }
 
 .fondo-seccion-proyectos {
@@ -356,7 +361,7 @@ dd {
 
 /*Proyecser Page*/
 .img-portadaproyecser {
-    background-image: url("../img/backgroundProyecser.jpeg");
+    background-image: url("../img/Proyecser/PORTADA\ PROYECSER.jpeg");
     background-size: cover;
 }
 
