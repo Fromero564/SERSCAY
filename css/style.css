@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-body,
 h1,
 h2,
 h3,
@@ -26,15 +25,32 @@ dd {
     margin: 0;
 }
 
+body{
+    width: 100vw;
+}
+
+.container-elements{
+    max-width: 99vw;
+}
+
 @media (max-width:790px) {
     div.div-timeline {
         display: none;
     }
-
+    .clientes-carrousel-confiaron-responsive{
+        display: block!important;
+      }
+ 
+      .clientes-carrousel-confiaron{
+        display: none;
+      }
+  
     .img-portada {
         background-position: center;
         height: 50rem;
     }
+   
+    /*Texto portada*/
 
     .portada-texto {
         text-align: center;
@@ -42,6 +58,30 @@ dd {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .title-border{
+        font-size: 2rem!important;
+    }
+
+    .img-portada{
+        height: 50vh;
+        background-position: center;
+    }
+
+    /*seccion de empresas con descripcion del grupo*/
+    .icons-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Logo*/
+
+    .logo{
+        width: 50vw;
+        height: 25vh;
     }
 
     .div-timeline {
@@ -69,6 +109,13 @@ dd {
         margin: 0px;
     }
 
+    .mision-title-responsive {
+        font-size: 25px;
+        font-family: "Oswald", sans-serif;
+        font-weight: 400;
+        margin: 0px;
+    }
+
     .timeline {
         max-width: 100%;
     }
@@ -79,10 +126,7 @@ dd {
         overflow-x: hidden;
     }
 
-    .img-portada {
-        background-position: center;
-        height: 50rem;
-    }
+
 
     .timeline-section {
         display: none;
@@ -198,6 +242,16 @@ dd {
     align-items: center;
     justify-content: center;
 }
+
+/*Clientes que confiaron carrousel*/
+.clientes-carrousel-confiaron-responsive{
+    display: none;
+  }
+
+  .clientes-carrousel-confiaron{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 
 /*button sobreNosotros*/
 
