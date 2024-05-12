@@ -114,6 +114,11 @@ dd {
     }
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
 /*Home and Navbar*/
 
 .navbar {
