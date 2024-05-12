@@ -287,9 +287,12 @@ body {
 }
 
 .img-portadafumisteria {
-    background-image: url("../img/backgroundFumisteria.jpeg");
+    background-color: #dd9595;
+    background-image: linear-gradient(rgba(37, 211, 102, 0.5), rgba(37, 211, 102, 0.5)), url("../img/backgroundFumisteria.jpeg");
     background-size: cover;
+    background-blend-mode: overlay;
 }
+
 
 .title-border {
     color: black;
@@ -366,8 +369,14 @@ body {
 
 /*Proyecser Page*/
 .img-portadaproyecser {
-    background-image: url("../img/Proyecser/PORTADA\ PROYECSER.jpeg");
+    /* Fondo de color */
+    background-color: #dd9595;
+    /* Degradado que combina el color de fondo con la imagen */
+    background-image: linear-gradient(rgba(37, 211, 102, 0.5), rgba(37, 211, 102, 0.5)), url("../img/Proyecser/PORTADA\ PROYECSER.jpeg");
+    /* Ajusta el tamaño de la imagen de fondo */
     background-size: cover;
+    /* Asegura que la imagen de fondo se superponga al color de fondo */
+    background-blend-mode: overlay;
 }
 
 
