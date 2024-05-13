@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-body,
+
 h1,
 h2,
 h3,
@@ -25,11 +25,22 @@ dl,
 dd {
     margin: 0;
 }
+body{
+    width: 100vw;
+}
 
 @media (max-width:790px) {
     div.div-timeline {
         display: none;
     }
+
+    .clientes-carrousel-confiaron-responsive{
+        display: block!important;
+      }
+
+      .clientes-carrousel-confiaron{
+        display: none;
+      }
 
     .img-portada {
         background-position: center;
@@ -42,6 +53,84 @@ dd {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+    .title-border{
+        font-size: 2rem!important;
+    }
+
+    .img-portada{
+        height: 50vh;
+        background-position: center;
+    }
+
+    /*seccion de empresas con descripcion del grupo*/
+    .icons-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Seccion fumisteria*/
+    .fondo-seccion-proyectos{
+        width: 75vw;
+        height: 56vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:60px;
+        margin-bottom: 50px;
+      }
+
+
+
+      .proyecto-carousel {
+        width: 70VW; 
+        margin: 0 auto; 
+      }
+      .proyecto-carousel img {
+        width: 100%; 
+        height: 100%!important; 
+      }
+
+      .proyecto-expanded {
+        width: 100vw;
+        }
+
+
+
+      .seccion-proyectos{
+        width: 70vw;
+        display: flex;
+        height: auto;
+        margin:0;
+        margin-top:50px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .texto-proyectos{
+       width: 100%;
+       margin-top: 20px;
+       text-align: center;
+      } 
+
+      .main-proyectos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .fondo-seccion-proyectos{
+        height: 70vh;
+      }
+
+    /*Logo*/
+
+    .logo{
+        width: 50vw;
+        height: 25vh;
     }
 
     .div-timeline {
@@ -272,6 +361,10 @@ body {
     color: red;
 }
 
+/*Carrousel Responsive*/
+.clientes-carrousel-confiaron-responsive{
+    display: none;
+  }
 /*Fumisteria SERSCAY page*/
 
 .fumisteria-title {
